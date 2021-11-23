@@ -1,0 +1,71 @@
+{
+    "profile_pic": "Charles.jpg",
+    "skills": {
+        "Python": {
+            "xp_duration": "7 years",
+            "level": 0.8
+        },
+        "C/C++": {
+            "xp_duration": "5 years",
+            "level": 0.6
+        },
+        "Linux": {
+            "xp_duration": "1 year",
+            "level": 0.4
+        }
+    },
+    "languages": {
+        "French": {
+            "str_level": "Native",
+            "level": 1
+        },
+        "English": {
+            "str_level": "C1",
+            "level": 0.7
+        },
+        "Spanish": {
+            "str_level": "B2",
+            "level": 0.5
+        }
+    },
+    "miscellaneous": [
+        "Arduino",
+        "Photography",
+        "3D modelling",
+        "Minecraft"
+    ],
+    "address": [
+        "39, avenue de Breteuil",
+        "75007 Paris"
+    ],
+    "phone_number": "+33 6 35 92 44 97",
+    "email": "charles.monod-broca@neuf.fr",
+    "first_name": "Charles",
+    "last_name": "MONOD-BROCA",
+    "title": "Junior bioinformatics developer",
+    "profile": [
+        "This is one line of my\ndescription",
+        "As you can see, only",
+        "parts of this json array get separated"
+    ],
+    "experience": [
+        {
+            "from": "Sep 2021",
+            "to": "NOW",
+            "domain": "EdTech",
+            "title": "Digital sciences teacher",
+            "description": "Teaching programming basics to children (ages 7 to 17)",
+            "work_done": [
+                "Basically, my first point",
+                "Using Scratch and derivatives, arduino, python"
+            ],
+            "technologies":
+            [
+                "python","scratch","algora","arduino"
+            ],
+            "achievements":
+            [
+            ]
+        }
+    ]
+}
