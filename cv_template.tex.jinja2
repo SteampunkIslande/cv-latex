@@ -1,10 +1,10 @@
-\documentclass[12pt,a4paper,roman]{moderncv}
+\documentclass[10pt,a4paper,roman]{moderncv}
 \moderncvtheme[blue]{classic}
 \usepackage[utf8]{inputenc}
-\usepackage[scale=0.8]{geometry} % La taille pris par le contenu, ici on a 15% de marges.
+\usepackage[scale=0.9]{geometry} % La taille pris par le contenu, ici on a 15% de marges.
 \nopagenumbers{} % Permet de masquer les numéros de page
 
-\setlength{\hintscolumnwidth}{0.21\textwidth}
+\setlength{\hintscolumnwidth}{0.175\textwidth}
 
 \title{((title))}
 \firstname{((first_name))}
@@ -26,7 +26,7 @@
 \cventry{((year.from)) - ((year.to))}{((year.title))}{((year.institution))}{((year.city))}{}{((year.description))}
 ((*endfor*))
 
-\section{Experiences professionnelles}
+\section{Expériences professionnelles}
 
 ((*for xp in experience*))
 \cventry{((xp.from)) - ((xp.to))}{((xp.title))}{((xp.employer))}{((xp.location))}{}{((xp.description))}
@@ -45,7 +45,6 @@
 ((*endfor*))
 \section{Centres d'intérêt}
 
-\cvline{Loisirs}{Guitare en autodidacte depuis 4 ans.}
-\cvline{}{Pratique du Viet Vo Dao, durant 7 ans.}
- 
+\cvline{Loisirs}{((*for h in hobbies*))((h))\newline{}((*endfor*))}
+
 \end{document}

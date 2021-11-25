@@ -1,11 +1,5 @@
 {
     "profile_pic": "Charles.jpg",
-    "miscellaneous": [
-        "Arduino",
-        "Photography",
-        "3D modelling",
-        "Minecraft"
-    ],
     "address": [
         "39, avenue de Breteuil",
         "75007 Paris"
@@ -14,12 +8,7 @@
     "email": "charles.monod-broca@neuf.fr",
     "first_name": "Charles",
     "last_name": "MONOD-BROCA",
-    "title": "Junior bioinformatics developer",
-    "profile": [
-        "This is one line of my\ndescription",
-        "As you can see, only",
-        "parts of this json array get separated"
-    ],
+    "title": "Ingénieur bioinformatique",
     "experience": [
         {
             "from": "Sep 2021",
@@ -27,33 +16,83 @@
             "title": "Animateur d'ateliers numériques",
             "employer": "Tech Kids Academy",
             "location": "Paris",
-            "description": "Enseignement des bases de la programmation auprès d'un jeune public (7-17 ans) à travers scratch, python, arduino, et plateformes propriétaires dédiées."
+            "description": "Enseignement des bases de la programmation à des groupes de jeunes (7-17 ans). Scratch, python, arduino, etc."
+        },
+        {
+            "from": "Jul 2019",
+            "to": "Jan 2020",
+            "title": "Animateur d'ateliers numériques",
+            "employer": "Villette Makerz",
+            "location": "Paris",
+            "description": "Initiation à la programmation, animation d'ateliers publics sur le thème des nouvelles technologies (impression 3D, robotique...)"
+        },
+        {
+            "from": "Mar 2020",
+            "to": "Jun 2020",
+            "title": "Stagiaire en biochimie",
+            "employer": "Muséum National d'Histoire Naturelle",
+            "location": "Paris",
+            "description": "Stage bibliographique (pandémie oblige) sur l'étude métagénomique des peptides antimicrobiens et leurs effets sur le microbiote intestinal."
+        },
+        {
+            "from": "Jan 2019",
+            "to": "Jun 2019",
+            "title": "Stagiaire en génétique moléculaire",
+            "employer": "Institut Pasteur",
+            "location": "Paris",
+            "description": "Extraction d'ADN de S. pombe et détection de la méthylation en sortie de G0. Techniques utilisée: extraction d'ADN au phénol, FACS, Migration d'ADN sur gradient de sucrose"
         }
     ],
     "education": [
         {
-            "from": "2020",
-            "to": "2021",
-            "title": "Master 2 - Digital Sciences",
+            "from": "Sep 2020",
+            "to": "Jun 2021",
+            "title": "Master - Digital Sciences",
             "institution": "Centre de Recherche Interdisciplinaire - Université de Paris",
             "city": "Paris",
-            "description": "Ce master m'a permis d'apprendre des technologies de Machine Learning et d'Intelligence Artificielle, Réalité virtuelle/augmentée et robotique.",
-            "technologies": [
-                "Pytorch",
-                "Scikitlearn",
-                "Unity",
-                "Arduino"
-            ]
+            "description": "Ce master m'a donné les bases des techniques d'apprentissage automatique, à travers scikitlearn et pytorch. D'autres modules m'ont fait découvrir la robotique et la réalité virtuelle."
+        },
+        {
+            "from": "Sep 2019",
+            "to": "Jun 2020",
+            "title": "Master - Molécules et Cibles Thérapeutiques",
+            "institution": "Muséum National d'Histoire Naturelle - Sorbonne Université",
+            "city": "Paris",
+            "description": "Ce master m'a donné des bases théoriques solides en pharmacologie (biochimie et biologie moléculaire). Les sujets abordés en cours allaient des maladies infectieuses au cancer."
+        },
+        {
+            "from": "Sep 2017",
+            "to": "Jun 2019",
+            "title": "Master - Génétique et Epigénétique - Bases moléculaires de l'oncogénèse",
+            "institution": "Institut Pasteur - Sorbonne Université",
+            "city": "Paris",
+            "description": "Ce master orienté recherche m'a donné de bonnes bases théoriques dans la compréhension des mécanismes génétiques qui mènent au cancer."
+        },
+        {
+            "from": "Sep 2015",
+            "to": "Jun 2017",
+            "title": "Licence de Sciences de la Vie",
+            "institution": "Université de Tours",
+            "city": "Tours",
+            "description": "Cette licence m'a permis de valider les prérequis en biologie moléculaire et cellulaire en vue de l'obtention d'un diplôme de Master."
+        },
+        {
+            "from": "Sep 2013",
+            "to": "Jun 2015",
+            "title": "CPGE BCPST",
+            "institution": "Lycée Pothier",
+            "city": "Orléans",
+            "description": "Ces deux années de classe préparatoire dite agro/véto m'ont formé à l'apprentissage de nouvelles connaissances, à la curiosité et à la méthode scientifique."
         }
     ],
     "computer_skills": {
         "languages": {
             "C++": "Bases solides",
-            "python": "Avancé",
+            "Python": "Avancé",
             "C": "Bonnes bases"
         },
         "softs": {
-            "git": "Bases",
+            "Git": "Bases",
             "Unity": "Intermédiaire",
             "Blender": "Intermédiaire"
         }
@@ -62,5 +101,12 @@
         "Français": "Natif",
         "Anglais": "C1",
         "Espagnol": "B2"
-    }
+    },
+    "hobbies": [
+        "Guitare",
+        "Astrophotographie",
+        "Arduino",
+        "Minecraft",
+        "Modélisation 3D"
+    ]
 }
