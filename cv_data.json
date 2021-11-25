@@ -1,33 +1,5 @@
 {
     "profile_pic": "Charles.jpg",
-    "skills": {
-        "Python": {
-            "xp_duration": "7 years",
-            "level": 0.8
-        },
-        "C/C++": {
-            "xp_duration": "5 years",
-            "level": 0.6
-        },
-        "Linux": {
-            "xp_duration": "1 year",
-            "level": 0.4
-        }
-    },
-    "languages": {
-        "French": {
-            "str_level": "Native",
-            "level": 1
-        },
-        "English": {
-            "str_level": "C1",
-            "level": 0.7
-        },
-        "Spanish": {
-            "str_level": "B2",
-            "level": 0.5
-        }
-    },
     "miscellaneous": [
         "Arduino",
         "Photography",
@@ -51,21 +23,44 @@
     "experience": [
         {
             "from": "Sep 2021",
-            "to": "NOW",
-            "domain": "EdTech",
-            "title": "Digital sciences teacher",
-            "description": "Teaching programming basics to children (ages 7 to 17)",
-            "work_done": [
-                "Basically, my first point",
-                "Using Scratch and derivatives, arduino, python"
-            ],
-            "technologies":
-            [
-                "python","scratch","algora","arduino"
-            ],
-            "achievements":
-            [
+            "to": "Présent",
+            "title": "Animateur d'ateliers numériques",
+            "employer": "Tech Kids Academy",
+            "location": "Paris",
+            "description": "Enseignement des bases de la programmation auprès d'un jeune public (7-17 ans) à travers scratch, python, arduino, et plateformes propriétaires dédiées."
+        }
+    ],
+    "education": [
+        {
+            "from": "2020",
+            "to": "2021",
+            "title": "Master 2 - Digital Sciences",
+            "institution": "Centre de Recherche Interdisciplinaire - Université de Paris",
+            "city": "Paris",
+            "description": "Ce master m'a permis d'apprendre des technologies de Machine Learning et d'Intelligence Artificielle, Réalité virtuelle/augmentée et robotique.",
+            "technologies": [
+                "Pytorch",
+                "Scikitlearn",
+                "Unity",
+                "Arduino"
             ]
         }
-    ]
+    ],
+    "computer_skills": {
+        "languages": {
+            "C++": "Bases solides",
+            "python": "Avancé",
+            "C": "Bonnes bases"
+        },
+        "softs": {
+            "git": "Bases",
+            "Unity": "Intermédiaire",
+            "Blender": "Intermédiaire"
+        }
+    },
+    "languages": {
+        "Français": "Natif",
+        "Anglais": "C1",
+        "Espagnol": "B2"
+    }
 }
