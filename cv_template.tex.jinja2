@@ -35,15 +35,12 @@
 \cventry{((year.from)) - ((year.to))}{((year.title))}{((year.institution))}{((year.city))}{}{((year.description))}
 ((*endfor*))
 
-\section{Compétences informatiques}
+\section{Compétences informatiques et langues}
 \cvcomputer{Langages}{((*for lang in computer_skills.languages*))((lang))\\((*endfor*))}{Logiciels}{((*for soft in computer_skills.software*))((soft))\newline{}((*endfor*))}
-\cvcomputer{Technologies}{((*for lang in computer_skills.technologies*))((lang))\newline{}((*endfor*))}{}{}
+\cvcomputer{Technologies}{((*for lang in computer_skills.technologies*))((lang))\newline{}((*endfor*))}{Langues}{((*for l in languages*))((l))\\((*endfor*))}
 
-%((*for lang,level in languages.items()*))
-%\cvline{((lang))}{((level))}
-%((*endfor*))
-\section{Centres d'intérêt}
+\section{Centres d'intérêt et compétences non techniques}
 
-\cvline{Loisirs}{((*for h in hobbies*))((h))\newline{}((*endfor*))}
+\cvcomputer{Loisirs}{((*for h in hobbies*))((h))\newline{}((*endfor*))}{Compétences non techniques}{((*for skill in soft_skills*))((skill))\\((*endfor*))}
 
 \end{document}

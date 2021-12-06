@@ -1,7 +1,7 @@
 {
     "profile_pic": "Charles.jpg",
     "address": [
-        "39, avenue de Breteuil",
+        "\\faHome 39, avenue de Breteuil",
         "75007 Paris",
         "France"
     ],
@@ -10,6 +10,9 @@
     "first_name": "Charles",
     "last_name": "MONOD-BROCA",
     "title": "Ingénieur bioinformatique",
+    "extra_info": [
+        "\\faGithub SteampunkIslande"
+    ],
     "experience": [
         {
             "from": "Mars 2021",
@@ -94,16 +97,22 @@
             "Jinja2"
         ]
     },
-    "languages": {
-        "Français": "Natif",
-        "Anglais": "C1",
-        "Espagnol": "B2"
-    },
+    "languages": [
+        "Français: Natif",
+        "Anglais: C1",
+        "Espagnol: B2"
+    ],
     "hobbies": [
         "Guitare",
         "Astrophotographie",
         "Arduino",
         "Minecraft",
         "Modélisation 3D"
+    ],
+    "soft_skills": [
+        "Esprit d'équipe",
+        "Curiosité",
+        "Autonomie",
+        "Créativité"
     ]
 }
