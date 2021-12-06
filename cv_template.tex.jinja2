@@ -1,15 +1,19 @@
 \documentclass[10pt,a4paper,roman]{moderncv}
 \moderncvtheme[blue]{classic}
+
+\photo[80pt][0pt]{((profile_pic))}
+
 \usepackage[utf8]{inputenc}
-\usepackage[scale=0.9]{geometry} % La taille pris par le contenu, ici on a 15% de marges.
+\usepackage{fontawesome}
+\usepackage[scale=0.9]{geometry} % La taille pris par le contenu, ici on a 10% de marges.
 \nopagenumbers{} % Permet de masquer les numéros de page
 
-\setlength{\hintscolumnwidth}{0.175\textwidth}
+\setlength{\hintscolumnwidth}{0.25\textwidth}
 
 \title{((title))}
 \firstname{((first_name))}
 \familyname{((last_name))}
-\address{((address[0]))}{((address[1]))}
+\address((*for ad in address*)){((ad))}((*endfor*))
 \mobile{((phone_number))}
 \email{((email))}
 ((*if extra_info*))
@@ -21,28 +25,23 @@
 \begin{document}
 \maketitle
 
+\section{Expériences professionnelles}
+((*for xp in experience*))
+\cventry{((xp.from)) - ((xp.to))}{((xp.title))}{((xp.employer))}{((xp.location))}{}{((xp.description))}
+((*endfor*))
+
 \section{Formation}
 ((*for year in education*))
 \cventry{((year.from)) - ((year.to))}{((year.title))}{((year.institution))}{((year.city))}{}{((year.description))}
 ((*endfor*))
 
-\section{Expériences professionnelles}
+\section{Compétences informatiques}
+\cvcomputer{Langages}{((*for lang in computer_skills.languages*))((lang))\\((*endfor*))}{Logiciels}{((*for soft in computer_skills.software*))((soft))\newline{}((*endfor*))}
+\cvcomputer{Technologies}{((*for lang in computer_skills.technologies*))((lang))\newline{}((*endfor*))}{}{}
 
-((*for xp in experience*))
-\cventry{((xp.from)) - ((xp.to))}{((xp.title))}{((xp.employer))}{((xp.location))}{}{((xp.description))}
-((*endfor*))
-
-%\cventry{years}{job title}{employer}{localization}{grade}{description}
-%\cvline{name of item}{description}
-%\cvcomputer{category 1}{XXX, YYY, ZZZ}{category 2}{XXX, YYY, ZZZ}
-
-\section{Compétences Informatique et Langues}
-\subsection{Informatique}
-\cvcomputer{Langages}{((*for lang,level in computer_skills.languages.items()*))\textbf{((lang))}:((level))\newline{}((*endfor*))}{Logiciels}{((*for soft,level in computer_skills.softs.items()*))\textbf{((soft))}:((level))\newline{}((*endfor*))}{}
-\subsection{Langues}
-((*for lang,level in languages.items()*))
-\cvline{((lang))}{((level))}
-((*endfor*))
+%((*for lang,level in languages.items()*))
+%\cvline{((lang))}{((level))}
+%((*endfor*))
 \section{Centres d'intérêt}
 
 \cvline{Loisirs}{((*for h in hobbies*))((h))\newline{}((*endfor*))}
