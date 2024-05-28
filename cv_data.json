@@ -15,6 +15,14 @@
     ],
     "experience": [
         {
+            "from": "Janvier 2022",
+            "to": "Aujourd'hui",
+            "title": "Ingénieur bioinformatique",
+            "employer": "Assistance Publique - Hôpitaux de Paris",
+            "location": "Créteil",
+            "description": "Développement de pipelines d'analyse de données de séquençage à haut débit pour le diagnostic en génétique constitutionnelle. Développement d'interface utilisateur pour les biologistes."
+        },
+        {
             "from": "Mars 2021",
             "to": "Juin 2021",
             "title": "Stagiaire en bioinformatique",
@@ -29,14 +37,6 @@
             "employer": "Muséum National d'Histoire Naturelle",
             "location": "Paris",
             "description": "Stage bibliographique (pandémie oblige) sur l'étude des peptides antimicrobiens et leurs effets sur le microbiote intestinal."
-        },
-        {
-            "from": "Janvier 2019",
-            "to": "Juin 2019",
-            "title": "Stagiaire en génétique moléculaire",
-            "employer": "Institut Pasteur",
-            "location": "Paris",
-            "description": "Extraction d'ADN de S. pombe et détection de la méthylation en sortie de G0. Techniques utilisée: extraction d'ADN au phénol, FACS, Migration d'ADN sur gradient de sucrose"
         }
     ],
     "education": [
@@ -55,27 +55,12 @@
             "institution": "Muséum National d'Histoire Naturelle - Sorbonne Université",
             "city": "Paris",
             "description": "Biochimie, pharmacologie"
-        },
-        {
-            "from": "Septembre 2017",
-            "to": "Juin 2019",
-            "title": "Master - Génétique et Epigénétique - Bases moléculaires de l'oncogénèse",
-            "institution": "Institut Pasteur - Sorbonne Université",
-            "city": "Paris",
-            "description": "Cancérologie, génétique, épigénétique, oncogénèse"
-        },
-        {
-            "from": "Septembre 2015",
-            "to": "Juin 2017",
-            "title": "Licence de Sciences de la Vie",
-            "institution": "Université de Tours",
-            "city": "Tours",
-            "description": "Bases en biologie moléculaire"
         }
     ],
     "computer_skills": {
         "languages": [
             "Python",
+            "Rust",
             "C/C++",
             "C\\#",
             "Jinja2",
@@ -88,13 +73,17 @@
             "Jupyter",
             "Blender",
             "Unity",
+            "Singularity/Docker",
             "Suites bureautiques"
         ],
         "technologies": [
             "Qt",
             "Pytorch",
             "Sqlite",
-            "Jinja2"
+            "DuckDB",
+            "Polars",
+            "Jinja2",
+            "Linux"
         ]
     },
     "languages": [
@@ -106,7 +95,6 @@
         "Guitare",
         "Astrophotographie",
         "Arduino",
-        "Minecraft",
         "Modélisation 3D"
     ],
     "soft_skills": [

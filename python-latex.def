@@ -1,0 +1,20 @@
+Bootstrap: docker
+From: python:3.11
+
+
+%files
+    cv_template.tex.jinja2 /cv-latex/data/cv_template.tex.jinja2
+    render.py /cv-latex/render.py
+    Makefile /cv-latex/Makefile
+
+%post
+    apt update
+    pip install jinja2
+
+    apt install -y texlive-latex-recommended
+    apt install -y texlive-fonts-extra
+
+    apt autoremove -y
+
+%runscript
+    make -f /cv-latex/Makefile $@
