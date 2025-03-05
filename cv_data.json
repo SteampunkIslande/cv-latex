@@ -50,6 +50,7 @@
         }
     ],
     "computer_skills": {
+        "description": "Administration de systèmes d’exploitation (Linux)\\newline{}Conteneurisation (Docker, Podman, Singularity)\\newline{}Scripting et automatisation (Bash, Python, Snakemake)\\newline{}Orchestration: Slurm\\newline{}",
         "languages": [
             "Python",
             "Rust",

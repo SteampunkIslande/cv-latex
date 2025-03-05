@@ -24,6 +24,11 @@
 \begin{document}
 \maketitle
 
+\section{Compétences techniques et langues}
+((computer_skills.description))\newline{}
+\cvcomputer{Langages}{((*for lang in computer_skills.languages*))((lang))\\((*endfor*))}{Logiciels}{((*for soft in computer_skills.software*))((soft))\newline{}((*endfor*))}
+\cvcomputer{Langues}{((*for l in languages*))((l))\\((*endfor*))}{Technologies}{((*for lang in computer_skills.technologies*))((lang))\newline{}((*endfor*))}
+
 \section{Expériences professionnelles}
 ((*for xp in experience*))
 \cventry{((xp.from)) - ((xp.to))}{((xp.title))}{((xp.employer))}{((xp.location))}{}{((xp.description))}
@@ -33,10 +38,6 @@
 ((*for year in education*))
 \cventry{((year.from)) - ((year.to))}{((year.title))}{((year.institution))}{((year.city))}{}{((year.description))}
 ((*endfor*))
-
-\section{Compétences informatiques et langues}
-\cvcomputer{Langages}{((*for lang in computer_skills.languages*))((lang))\\((*endfor*))}{Logiciels}{((*for soft in computer_skills.software*))((soft))\newline{}((*endfor*))}
-\cvcomputer{Technologies}{((*for lang in computer_skills.technologies*))((lang))\newline{}((*endfor*))}{Langues}{((*for l in languages*))((l))\\((*endfor*))}
 
 \section{Centres d'intérêt et compétences non techniques}
 
